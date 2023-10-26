@@ -1,0 +1,423 @@
+ 
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="image/favicon.PNG">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="reg.css">
+ 
+</head>
+<body>
+  <div class="header">
+    <a href="#" class="logo"><i class="fa fa-shopping-basket" aria-hidden="true"></i>grocery</a>
+    <div class="navbar">
+      <a href="" class="home">Home</a>
+      <a href="" class="home">Features</a>
+      <a href="" class="home">Products</a>
+      <a href="" class="home">Category</a>
+      <a href="" class="home">Reviews</a>
+      <a href="" class="home">Blogs</a>
+    </div>
+    <div class="icons">
+      <div class="fa fa-bars" id="menu-btn"></div>
+      <div class="fa fa-search"id="search-btn"></div>
+      <div class="fa fa-shopping-cart"id="shopping-btn"></div>
+      <div class="fa fa-user"id="login-btn"></div>
+
+
+    </div>
+    <form action="" class="search-form ">
+      <input type="text" name="" id="search-input" placeholder="Search Here">
+      <label for="search-input" class="fa fa-search label"></label>
+    </form>
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="image/cart-img-1.png" alt="">
+        <div class="content">
+          <h3>Watermalon</h3>
+          <span class="price">₹100</span>
+          <span class="quantity">Qty : 1</span>
+
+        </div>
+      </div>
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="image/cart-img-2.png" alt="">
+        <div class="content">
+          <h3>Onion</h3>
+          <span class="price">₹150</span>
+          <span class="quantity">Qty : 2</span>
+
+        </div>
+      </div>
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="image/cart-img-3.png" alt="">
+        <div class="content">
+          <h3>Chicken</h3>
+          <span class="price">₹200</span>
+          <span class="quantity">Qty : 3</span>
+
+        </div>
+      </div>
+      <div class="total"> Total ₹1000</div>
+      <a href="" class="btn">Checkout</a>
+     
+    </div>
+    <!-- login now -->
+    <form action="http://localhost/orderInBoot/login.php" class="login-form login-form1 activ" method="post">
+      <h3>Login Now</h3>
+      <input type="email" name="email" id="" class="input email" placeholder="Your Email" style="text-transform: lowercase;"> 
+      <input type="password" name="pass" id="" class="input password" placeholder="Your Password" style="text-transform:lowercase;">
+      <p>forget your password <a href="#" class="set_pass" id="set_pass">Click here</a></p>
+      <p>Don't hava an account <a href="#" class="reg" id="reg">Sign up</a></p>
+      
+      <input type="submit" value="Login" class="btn">
+    </form>
+    <!-- login now -->
+
+
+    <!-- new password -->
+    <form action="http://localhost/orderInBoot/pass.php" class="login-form  new_pass " method="post">
+      <h3>Update password</h3>
+      <input type="email" name="email" id="" class="input email" placeholder="Your Email" style="text-transform: lowercase;"> 
+      <input type="password" name="oldpass" id="" class="input password" placeholder="old Password" style="text-transform:lowercase;">
+      <input type="password" name="newpass" id="" class="input password" placeholder="new Password" style="text-transform:lowercase;">
+
+    <input type="submit" value="Login" class="btn">
+    </form>
+    <!-- new pass -->
+
+   
+  </div>
+  <!-- home section -->
+    <section class="home" id="home">
+    <div class="content">
+      <h3>Fresh And <span>Organic</span> Products For You</h3>
+      <p>This Website is design by Harshal Sindhi From IMRD</p>
+      <p>EveryOne can Learn and Earn from website Easily.</p>
+      <a href="" class="btn">Shop Now</a>
+    </div>
+  </section>
+  <!-- reg form -->
+  <form action="index.php" method="post" name="f1" class="regForm ">
+    <h1>sign up</h1>
+    <input type="text" name="fname" placeholder="First name" class="input" required>
+    <input type="text" name="lname" placeholder="Last name" class="input" required>
+    <input type="email" name="email" placeholder="E-mail" class="input" style="text-transform: lowercase;" required>
+    
+    <input type="password" name="pass" id="pass" placeholder="Password" class="input">
+    <input type="password" name="pass" id="pass" placeholder="Confirm" class="input">
+    <input type="text" name="inst" placeholder="Institute / Organisation" class="input">
+    <input type="submit" value="submit" class="btn">
+</form>
+<!-- reg form -->
+
+  <!-- home section -->
+  <!-- features section -->
+  <section class="features">
+    <div class="content">
+      <h1 class="heading">Our <span>Features</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image/feature-img-1.png" alt="">
+          <h1>Fresh And Oraganic</h1>
+          <p>Provide fresh items and juice</p>
+          <p>provide organic foods with best qlty</p>
+          <a href="#" class="btn">Read Now</a>
+        </div>
+        <div class="box">
+          <img src="image/feature-img-2.png" alt="">
+          <h1>Easy payments</h1>
+          <p>Provide fresh items and juice</p>
+          <p>provide organic foods with best qlty</p>
+          <a href="#" class="btn">Read Now</a>
+        </div>
+        <div class="box">
+          <img src="image/feature-img-3.png" alt="">
+          <h1>Free delivery</h1>
+          <p>Provide fresh items and juice</p>
+          <p>provide organic foods with best qlty</p>
+          <a href="#" class="btn">Read Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- features section -->
+  <!-- /* products section */ -->
+  <section class="product">
+    <div class="heading" style="margin-top:2.5rem;">Our <span>products</span></div>
+    <div class="product-slider">
+      <div class="box-container wrapper ">
+        
+        <div class="box">
+          <img src="image/product-2.png" alt="">
+          <h1>fresh onions</h1>
+          <div class="price">₹100 - - 200</div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img src="image/product-3.png" alt="">
+          <h1>fresh meat</h1>
+          <div class="price">₹100 - - 200</div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img src="image/product-4.png" alt="">
+          <h1>fresh cabbage</h1>
+          <div class="price">₹100 - - 200</div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="product-slider">
+      <div class="box-container wrapper">
+        
+        <div class="box">
+          <img src="image/product-6.png" alt="">
+          <h1>fresh onions</h1>
+          <div class="price">₹100 - - 200</div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img src="image/product-7.png" alt="">
+          <h1>fresh meat</h1>
+          <div class="price">₹100 - - 200</div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img src="image/product-8.png" alt="">
+          <h1>fresh cabbage</h1>
+          <div class="price">₹100 - - 200</div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <a href="" class="btn">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="categories">
+    <h1 class="heading">products <span>categories</span></h1>
+<div class="box-container category-container">
+  <div class="box">
+    <img src="image/cat-1.png" alt="">
+    <h1>vagetables</h1>
+    <p>upto 45% off</p>
+    <a href="#" class="btn">Add to cart</a>
+  </div>
+  <div class="box">
+    <img src="image/cat-2.png" alt="">
+    <h1>fresh fruits</h1>
+    <p>upto 45% off</p>
+    <a href="#" class="btn">Add to cart</a></div>
+  <div class="box">
+    <img src="image/cat-3.png" alt="">
+    <h1>diary products</h1>
+    <p>upto 45% off</p>
+    <a href="#" class="btn">Add to cart</a>
+  </div>
+  <div class="box">
+    <img src="image/cat-4.png" alt="">
+    <h1>fresh meat</h1>
+    <p>upto 45% off</p>
+    <a href="#" class="btn">Add to cart</a>
+  </div>
+</div>
+  </section>
+
+<!-- /* products section */ -->
+
+<!-- review -->
+<section class="review" id="review">
+  <h1 class="heading">customer's <span>review</span></h1>
+  <div class="box-container">
+   
+    <div class="box">
+      <img src="image/pic-1.png" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, non dicta suscipit similique nulla corrupti.</p>
+      <h1>jong deo</h1>
+      <div class="stars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half"></i>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="image/pic-2.png" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, non dicta suscipit similique nulla corrupti.</p>
+      <h1>jong deo</h1>
+      <div class="stars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half"></i>
+      </div>
+    </div>
+
+
+    <div class="box">
+      <img src="image/pic-3.png" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, non dicta suscipit similique nulla corrupti.</p>
+      <h1>jong deo</h1>
+      <div class="stars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half"></i>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- review -->
+<!-- blogs -->
+<section class="blogs">
+  <div class="heading">our <span>blogs</span></div>
+  <div class="box-container">
+    <div class="box">
+      <img src="image/blog-1.jpg" alt="">
+      <div class="icons">
+        <a href=""><i class="fa fa-user"></i>By user</a>
+        <a href=""><i class="fa fa-calendar"></i>1st may, 2021</a>
+      </div>
+        <h1>fresh and organic vegetables and fruits</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, itaque.</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+    <div class="box">
+      <img src="image/blog-2.jpg" alt="">
+      <div class="icons">
+        <a href=""><i class="fa fa-user"></i>By user</a>
+        <a href=""><i class="fa fa-calendar"></i>1st may, 2021</a>
+      </div>
+        <h1>fresh and organic vegetables and fruits</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, itaque.</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+    <div class="box">
+      <img src="image/blog-3.jpg" alt="">
+      <div class="icons">
+        <a href=""><i class="fa fa-user"></i>By user</a>
+        <a href=""><i class="fa fa-calendar"></i>1st may, 2021</a>
+      </div>
+        <h1>fresh and organic vegetables and fruits</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, itaque.</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+  </div>
+</section>
+<!-- blogs -->
+
+
+<!-- footer -->
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h1>Groco <i class="fa fa-shopping-basket"></i></h1>
+      <p>feel free to follow us on our social
+        media hanglers all the linkd are given below.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook i"></i>
+        <i class="fa fa-twitter i"></i>
+        <i class="fa fa-instagram i"></i>
+        <i class="fa fa-youtube i" ></i>
+      </div>
+    </div>
+    <div class="box">
+      <h1>contact info</h1>
+      <div class="icons">
+      <a href="#"><i class="fa fa-phone">
+           </i>+91 987-654-3210
+          </a>
+          <a href="#"><i class="fa fa-phone">
+          </i>+91 987-657-3210
+         </a>
+         <a href="#" style="text-transform:lowercase;"><i class="fa fa-envelope">
+        </i >imrd@gmail.com
+       </a>
+       <a href="#"><i class="fa fa-map-marker">
+      </i> pune,india - 400104
+     </a>
+    </div>
+    </div>
+    <div class="box">
+      <h1>quick links</h1>
+      <div class="icons right-icons">
+        <a href=""><i class="fa fa-arrow-right"></i>Home</a>
+        <a href=""><i class="fa fa-arrow-right"></i>features</a>
+        <a href=""><i class="fa fa-arrow-right"></i>products</a>
+        <a href=""><i class="fa fa-arrow-right"></i>categories</a>
+        <a href=""><i class="fa fa-arrow-right"></i>review</a>
+        <a href=""><i class="fa fa-arrow-right"></i>blogs</a>
+        </div>
+    </div>
+    <div class="box">
+      <h1>newsletter</h1>
+      <p>sucscribe for latest updates</p>
+      <input type="email" name="" id="" class="email" placeholder="your email">
+      <a href="" class="btn">sucscribe</a>
+      <img src="image/payment.png" alt="">
+    </div>
+  </div>
+  <div class="credit">
+    <h1>created by <span style="color:var(--green);">sindhi harshal</span> | All rights reserved</h1>
+  </div>
+</section>
+<!-- footer -->
+  <script src="main.js"></script>
+</body>
+</html>

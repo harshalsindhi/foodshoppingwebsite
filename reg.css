@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+:root{
+    --green:green;
+    --black:#130f40;
+    --light:#666;
+    --border:2rem solid rgba(0,0,0,0.1);
+    --outline:. 3rem solid rgba(0,0,0,0.4);
+    --box-shadow: 0. 5rem 1.5rem rgba(0,0,0,0.1);
+    }
+  .regForm  .btn{
+        font-size:1.7rem;
+        color:var(--black);
+        padding:.6rem 5rem;
+        border:2px solid var(--black);
+        border-radius:1rem;
+        display:inline-block;
+        text-align:center;
+        margin:1rem 2rem;
+        
+        transition:.3s ease-in-out;
+        background-color: #fff;
+    }
+    .btn:hover{
+        color:#fff;
+        background-color: var(--green);
+    }
+.regForm{
+    width:40rem;
+    border:2px solid;
+    padding:3rem;
+    margin-top:20rem;
+    background:#fff;
+    border-radius:2rem;
+    position:absolute;
+    top:-474rem;
+    right:3rem;
+   transition: .9s ease-in-out;
+}
+.regForm h1{
+    text-align:center;
+}
+.regForm.activ{
+   
+    top:-9rem;
+    transition: 1.5s ease-in-out;
+}
+.regForm .input{
+    display:block;
+    margin:1.5rem auto;
+    padding:.8rem;
+    width:90%;
+    text-align:center;
+    border:1px solid var(--light) ;
+    background-color: #eee;
+    color:black;
+}
+.regForm .btn{
+ width:90%; 
+   padding:.7rem auto;
+    background-color:#eee;
+    transition:.2s ease-in-out;
+
+}
+.regForm .btn:hover{
+    background-color: var(--green);
+}
